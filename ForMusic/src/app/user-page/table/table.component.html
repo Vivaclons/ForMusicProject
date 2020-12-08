@@ -1,0 +1,50 @@
+<div class="mainDiv">
+  <br>
+  <h1>All music on our service!</h1>
+  <br>
+  <table mat-table [dataSource]="dataTask" class="mat-elevation-z8" width="1200px">
+
+    <ng-container class="mth" matColumnDef="id">
+      <th class="mth" mat-header-cell *matHeaderCellDef> ID </th>
+      <th mat-cell *matCellDef="let element" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{element.id}} </th>
+    </ng-container>
+
+
+    <ng-container class="mth" matColumnDef="name">
+      <th class="mth" mat-header-cell *matHeaderCellDef> Music name </th>
+      <th mat-cell *matCellDef="let element"> {{element.name}} </th>
+    </ng-container>
+
+
+    <ng-container class="mth" matColumnDef="Author">
+      <th class="mth" mat-header-cell *matHeaderCellDef> Author </th>
+      <th mat-cell *matCellDef="let element"> {{element.Author}} </th>
+    </ng-container>
+
+    <ng-container class="mth" matColumnDef="Year">
+      <th class="mth" mat-header-cell *matHeaderCellDef> Release Year  </th>
+      <th mat-cell *matCellDef="let element">{{element.Year}}</th>
+    </ng-container>
+
+    <ng-container matColumnDef="min">
+      <th class="mth" mat-header-cell *matHeaderCellDef> Min </th>
+      <th mat-cell *matCellDef="let element">{{element.min}}</th>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row class="sth" *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table><br><br>
+
+  <div class="search">
+    <form [formGroup]="formName">
+      <h3 class="sbm">Search by Music name: </h3>
+      <input type="text" formControlName="name" name="name" (change)="setFilterName()"> &nbsp;&nbsp;&nbsp;
+    </form>
+  </div>
+  <div class="search">
+    <form [formGroup]="formAuth">
+      <h3 class="sbm">Search by Author: </h3>
+      <input type="text" formControlName="Author" name="Author" (change)="setFilterAuthor()">
+    </form>
+  </div><br><br>
+</div>

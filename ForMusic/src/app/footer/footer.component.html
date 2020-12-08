@@ -1,0 +1,17 @@
+<footer>
+  <br><br>
+  <ul>
+    <li class="li2"><a routerLink="../home">Home</a></li>
+    <li class="li2"><a routerLink="../user" (click)="check()">Music</a></li>
+    <li class="li2"><a routerLink="../home">About us</a></li>
+    <img width="40px" height="40px" src="assets/logo2.PNG" alt="logo">
+    <li class="li"><p style="color: #F2994A">For<br>Music</p></li>
+    <li class="li1"><a routerLink="../home">Support</a></li>
+    <li class="li1"><a routerLink="../admin" (click)="checkA()">Admin</a></li>
+    <li class="li1"><a routerLink="../supAdmin" (click)="checkA()">Super Admin</a></li>
+  <br><br>
+  </ul>
+  <hr class="hr">
+  <a id="adlog" routerLink="../loginAdmin">Login for admin</a>
+  <p id="data">AST(+6): {{ today | date:'medium' }}</p>
+</footer>

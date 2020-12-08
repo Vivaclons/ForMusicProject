@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("src/assets/mont.ttf");
+}
+
+ul{
+  background: black;
+  display: inline-block;
+  width: 97.2%;
+  list-style-type: none;
+}
+
+img{
+  float: left;
+  padding-top: 4px;
+  margin-left: -1%;
+}
+
+.li{
+  padding-top: 30px;
+  float: left;
+  padding-right: 3%;
+  margin-left: 1%;
+  padding-bottom: 0;
+}
+/*ul img{*/
+/*  color: white;*/
+/*  width: 20px;*/
+/*  height: 20px;*/
+/*}*/
+.li p{
+  margin-top: -10px;
+  font-size: 16px;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.li2{
+  padding-top: 20px;
+  float: left;
+  margin-left: 2%;
+}
+
+.li2 a{
+  color: #F2994A;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: Montserrat;
+}
+
+.liB{
+  display: inline-block;
+  padding-top: 16px;
+  margin-left: 50%;
+}
+
+.login{
+  background: black;
+  border: 1px solid #F2994A;
+  border-radius: 6px;
+  color: #F2994A;
+  width: 90px;
+  font-size: 13px;
+  height: 30px;
+  font-family: Montserrat;
+}
+
+.sign{
+  background: #F2994A;
+  border: 1px solid black;
+  border-radius: 6px;
+  color: black;
+  width: 90px;
+  font-size: 13px;
+  height: 30px;
+  font-family: Montserrat;
+}
+
+.sign:hover{
+  background: black;
+  color: #F2994A;
+  border: 1px solid #F2994A;
+}
+
+.login:hover{
+  background: #F2994A;
+  color: black;
+  border: 1px solid black;
+}

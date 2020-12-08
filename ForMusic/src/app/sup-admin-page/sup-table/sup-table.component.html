@@ -1,0 +1,60 @@
+<div class="mainDiv">
+  <br>
+  <h1>All music on our service!</h1>
+  <br>
+  <table mat-table [dataSource]="dataTask" class="mat-elevation-z8" width="1200px">
+
+    <ng-container class="mth" matColumnDef="id">
+      <th class="mth" mat-header-cell *matHeaderCellDef> ID </th>
+      <th mat-cell *matCellDef="let element" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{element.id}} </th>
+    </ng-container>
+
+
+    <ng-container class="mth" matColumnDef="Name">
+      <th class="mth" mat-header-cell *matHeaderCellDef> Name </th>
+      <th mat-cell *matCellDef="let element"> {{element.Name}} </th>
+    </ng-container>
+
+
+    <ng-container class="mth" matColumnDef="Surname">
+      <th class="mth" mat-header-cell *matHeaderCellDef> Surname </th>
+      <th mat-cell *matCellDef="let element"> {{element.Surname}} </th>
+    </ng-container>
+
+    <ng-container class="mth" matColumnDef="userName">
+      <th class="mth" mat-header-cell *matHeaderCellDef> userName  </th>
+      <th mat-cell *matCellDef="let element">{{element.userName}}</th>
+    </ng-container>
+
+    <ng-container matColumnDef="password">
+      <th class="mth" mat-header-cell *matHeaderCellDef> password </th>
+      <th mat-cell *matCellDef="let element">{{element.password}}</th>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row class="sth" *matRowDef="let row; columns: displayedColumns;"></tr>
+
+
+    <ng-container matColumnDef="action">
+      <th mat-header-cell *matHeaderCellDef></th>
+      <th mat-cell *matCellDef="let element">
+        <button (click)="create()">Create</button>
+        <button (click)="delete(element.id)">Delete</button>
+      </th>
+    </ng-container>
+  </table><br><br>
+
+  <div class="search">
+    <form [formGroup]="formName">
+      <h3 class="sbm">Search by Name: </h3>
+      <input type="text" formControlName="Name" name="Name" (change)="setFilterName()"> &nbsp;&nbsp;&nbsp;
+    </form>
+  </div>
+  <div class="search">
+    <form [formGroup]="formAuth">
+      <h3 class="sbm">Search by UserName: </h3>
+      <input type="text" formControlName="userName" name="userName" (change)="setFilterAuthor()">
+    </form>
+  </div><br><br>
+</div>
+

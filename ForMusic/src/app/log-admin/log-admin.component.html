@@ -1,0 +1,18 @@
+<body><br>
+<div class="text">
+  <img src="assets/logo.png" width="200px" height="150px">
+  <h1>Welcome to admin Page</h1>
+</div>
+<form [formGroup]="formG" class="login">
+  <h1>Login</h1>
+  <label class="passlabel" for="email">Email address:</label><br>
+  <input id="email" name="email" formControlName="userName" placeholder="Email address"><br><br>
+  <p class="val" [style.color]="'red'" *ngIf="!formG?.controls?.userName?.valid">Invalid email address is empty!</p>
+
+  <label class="passlabel" for="pass">Password:</label><br>
+  <input id="pass" name="pass" formControlName="passWord" placeholder="Password" type="password"><br><br>
+  <p class="val" [style.color]="'red'" *ngIf="!formG?.controls?.passWord?.valid">Invalid password</p>
+  <button class="button" (click)="login()">Login</button>
+</form><br>
+</body>
+

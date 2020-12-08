@@ -1,0 +1,85 @@
+footer{
+  background: black;
+  height: 300px;
+  width: 100%;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("src/assets/mont.ttf");
+}
+
+ul{
+  background: black;
+  display: inline-block;
+  width: 97%;
+  list-style-type: none;
+}
+
+.li {
+  padding-top: 5px;
+  float: left;
+  padding-right: 10.5%;
+}
+
+img{
+  float: left;
+  padding-left: 8.5%;
+  margin-top: -11px;
+}
+
+.li p{
+  margin-top: -10px;
+  font-size: 16px;
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.li2{
+  padding-top: 5px;
+  float: left;
+  margin-left: 8%;
+}
+
+.li2 a{
+  color: #F2994A;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: Montserrat;
+}
+
+.li1{
+  padding-top: 5px;
+  float: left;
+  margin-right: 8%;
+}
+
+.li1 a{
+  color: #F2994A;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: Montserrat;
+}
+
+.hr{
+  width: 80%;
+  color: #F2994A;
+  text-align: center;
+
+}
+
+
+#data{
+  margin-left: 3%;
+  margin-top: 8%;
+  color: #F2994A;
+  font-family: Montserrat;
+}
+
+#adlog{
+  margin-left: 82%;
+  text-decoration: none;
+  color: #F2994A;
+  list-style-type: none;
+  font-family: Montserrat;
+}

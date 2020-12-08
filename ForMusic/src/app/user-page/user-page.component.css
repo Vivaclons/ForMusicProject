@@ -1,0 +1,214 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("src/assets/mont.ttf");
+}
+
+
+.table{
+  background: #F2F2F2;
+  margin-top: -1.5%;
+  margin-bottom: -2%;
+}
+
+.table h1{
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.artists{
+  list-style-type: none;
+  font-family: Montserrat;
+}
+
+
+table {
+  font-family: Montserrat;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.table p{
+  color: #F2994A;
+  font-family: Montserrat;
+}
+
+.image{
+  display: inline-block;
+}
+
+.image img{
+  margin-top: -1.5%;
+}
+
+#lis{
+  position: absolute;
+  z-index: 1;
+  color: #F2994A;
+  font-family: Montserrat;
+  font-size: 40px;
+  margin-left: 20%;
+  margin-top: 8%;
+}
+
+#ev{
+  position: absolute;
+  z-index: 1;
+  color: #F2994A;
+  font-family: Montserrat;
+  font-size: 40px;
+  margin-left: 30%;
+  margin-top: 12%;
+}
+
+.millions p{
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 30px;
+}
+
+.millions{
+  background: #F2F2F2;
+  width: 100%;
+  margin-top: -2.4%;
+}
+
+.millionsima{
+  display: inline-block;
+  position: static;
+  margin-left: 7%;
+}
+
+#img1{
+  margin-left: 17%;
+}
+
+#img2{
+  margin-left: 10%;
+}
+
+#img3{
+  margin-left: 0%;
+}
+
+#img4{
+  margin-left: 5%;
+}
+
+.millionsima h4{
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 25px;
+}
+
+.millionsima p{
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 20px;
+}
+
+.sb{
+  background: black;
+}
+
+#pick{
+  font-family: Montserrat;
+  color: #F2994A;
+  text-align: center;
+  font-size: 30px;
+}
+
+#listen{
+  margin-top: -1%;
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #F2994A;
+  text-align: center;
+}
+
+.subscribe{
+  color: #F2994A;
+  margin-left: 8%;
+}
+
+.family{
+  background: #F2994A;
+  display: inline-block;
+  width: 350px;
+  height: 400px;
+  border: 1px #F2994A solid;
+  border-radius: 4px;
+}
+
+.family p{
+  font-family: Montserrat;
+  font-size: 18px;
+  color: black;
+}
+
+.premium{
+  background: #F2994A;
+  display: inline-block;
+  width: 350px;
+  height: 400px;
+  border: 1px #F2994A solid;
+  border-radius: 4px;
+  margin-left: 5%;
+}
+
+.premium p{
+  font-family: Montserrat;
+  font-size: 18px;
+  color: black;
+}
+
+.student{
+  background: #F2994A;
+  margin-left: 5%;
+  display: inline-block;
+  width: 350px;
+  height: 400px;
+  border: 1px #F2994A solid;
+  border-radius: 4px;
+}
+
+.student p{
+  font-family: Montserrat;
+  font-size: 18px;
+  color: black;
+}
+
+.fam{
+  text-align: center;
+}
+
+.pro{
+  margin-left: 5%;
+}
+
+.getStart{
+  margin-left: 35%;
+  background: black;
+  border: 1px solid #F2994A;
+  border-radius: 6px;
+  color: #F2994A;
+  width: 90px;
+  font-size: 13px;
+  height: 30px;
+  font-family: Montserrat;
+}
+
+.getStart:hover{
+  background: #F2994A;
+  color: black;
+  border: 1px solid black;
+}

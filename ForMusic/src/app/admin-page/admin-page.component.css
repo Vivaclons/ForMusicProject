@@ -1,0 +1,125 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("src/assets/mont.ttf");
+}
+
+.table{
+  background: #F2F2F2;
+  margin-top: -1.5%;
+  margin-bottom: -2%;
+}
+
+.table h1{
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.artists{
+  list-style-type: none;
+  font-family: Montserrat;
+}
+
+table {
+  font-family: Montserrat;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.table p{
+  color: #F2994A;
+  font-family: Montserrat;
+}
+
+.welcomeAdmin{
+  margin-top: -2%;
+  background: #F2F2F2;
+  display: inline-block;
+}
+
+.adminOpp{
+  background: black;
+  width: 40%;
+  margin-left: 55%;
+  height: 450px;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-top: -43%;
+}
+
+.adminOpp img{
+  margin-top: 5%;
+  margin-left: 23%;
+}
+
+.adminOpp h1{
+  font-family: Montserrat;
+  color: #F2994A;
+  font-size: 25px;
+  margin-left: 10%;
+}
+
+.adminOpp p{
+  font-family: Montserrat;
+  color: #F2994A;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.welAdmin{
+  background: #F2F2F2;
+  margin-right: 45%;
+  height: 550px;
+}
+
+#welToPage{
+  font-family: Montserrat;
+  color: black;
+  margin-left: 15%;
+  font-size: 40px;
+  margin-top: 15%;
+}
+
+.welAdmin img{
+  margin-left: 15%;
+}
+
+#Nemo{
+  font-size: 20px;
+  font-family: Montserrat;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+#add{
+  background: black;
+  border: 1px solid #F2994A;
+  border-radius: 6px;
+  color: #F2994A;
+  width: 90px;
+  font-size: 13px;
+  height: 30px;
+  font-family: Montserrat;
+  margin-left: 3%;
+}
+
+#add:hover{
+  background: #F2994A;
+  color: black;
+  border: 1px solid black;
+}
+
+.in{
+  width: 10%;
+  margin-left: 3%;
+  height: 20px;
+}

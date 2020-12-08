@@ -1,0 +1,47 @@
+.support{
+  width: 100%;
+  background: black;
+  height: 460px;
+  display: inline-block;
+}
+
+.supportimg{
+  /*margin-left: 10px;*/
+}
+
+.aboutUS{
+  margin-top: -28%;
+  margin-left: 34%;
+  margin-right: 4%;
+}
+
+.aboutUS h1{
+  font-size: 25px;
+  font-family: Montserrat;
+  color: #F2F2F2;
+  text-align: center;
+}
+
+.aboutUS p{
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #F2994A;
+}
+
+#translate{
+  background: #F2994A;
+  border: 1px solid black;
+  border-radius: 6px;
+  color: black;
+  width: 90px;
+  font-size: 13px;
+  height: 30px;
+  font-family: Montserrat;
+  float: right;
+}
+
+#translate:hover{
+  background: black;
+  color: #F2994A;
+  border: 1px solid #F2994A;
+}

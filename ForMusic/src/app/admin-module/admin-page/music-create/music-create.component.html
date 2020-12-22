@@ -1,0 +1,24 @@
+<body><br><br>
+<div class="text">
+  <img src="../../../../assets/logo2.PNG" width="200px" height="180px">
+  <h1>Ready? Let’s play.</h1>
+</div>
+<form [formGroup]="formG" class="login">
+  <h1>Create new music</h1>
+
+  <label class="lab" for="name">Name:</label><br>
+  <input class="inm" id="name" name="name" formControlName="name"><br><br>
+  <p class="inv" [style.color]="'red'" *ngIf="!formG?.controls?.Name?.valid">Name is empty!</p>
+  <label class="lab"  for="Author">Author:</label><br>
+  <input class="inm" id="Author" name="Author" formControlName="Author"><br><br>
+  <p class="inv" [style.color]="'red'" *ngIf="!formG?.controls?.Surname?.valid">Surname is empty!</p>
+  <label class="lab" for="Year">Year of Publisher:</label><br>
+  <input class="inm" id="Year" name="Year" formControlName="Year"><br><br>
+  <p class="inv" [style.color]="'red'" *ngIf="!formG?.controls?.userName?.valid">UserName is empty!</p>
+  <label class="lab" for="min">Min:</label><br>
+  <input  class="inm"id="min" name="min" formControlName="min"><br><br>
+  <p class="inv" [style.color]="'red'" *ngIf="!formG?.controls?.password?.valid">Password Invalid!</p>
+  <button *ngIf="new" class="button" (click)="create()">Create</button>
+</form>
+<br><br>
+</body>

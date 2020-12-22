@@ -2,15 +2,15 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {AuthGuService} from './auth-gu.service';
 import {AuthGu2Service} from './auth-gu2.service';
-import {UserPageComponent} from "./user-page/user-page.component";
-import {AdminPageComponent} from "./admin-page/admin-page.component";
+import {UserPageComponent} from "./user-module/user-page/user-page.component";
+import {AdminPageComponent} from "./admin-module/admin-page/admin-page.component";
 import {LogAdminComponent} from "./log-admin/log-admin.component";
-import {SupAdminPageComponent} from "./sup-admin-page/sup-admin-page.component";
+import {SupAdminPageComponent} from "./sup-admin-module/sup-admin-page/sup-admin-page.component";
 import {LoginComponent} from "./login/login.component";
-import {HomePageComponent} from "./home-page/home-page.component";
+import {HomePageComponent} from "./home-module/home-page/home-page.component";
 import {SignUpComponent} from "./sign-up/sign-up.component";
-import {MusicCreateComponent} from "./admin-page/music-create/music-create.component";
-import {CreateUserComponent} from "./sup-admin-page/create-user/create-user.component";
+import {MusicCreateComponent} from "./admin-module/admin-page/music-create/music-create.component";
+import {CreateUserComponent} from "./sup-admin-module/sup-admin-page/create-user/create-user.component";
 
 
 const routes: Routes = [

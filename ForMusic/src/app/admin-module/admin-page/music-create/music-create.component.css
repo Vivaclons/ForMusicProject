@@ -1,0 +1,58 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../../../../assets/mont.ttf");
+}
+
+.text{
+  font-family: Montserrat;
+  color: white;
+  text-align: center;
+}
+
+body{
+  background: black;
+}
+
+.login h1{
+  font-size: 20px;
+  width: 294px;
+  color: #F2994A;
+  font-family: Montserrat;
+}
+
+.login{
+  margin-left: 41%;
+}
+
+.button{
+  background: #F2994A;
+  border: 1px solid black;
+  border-radius: 6px;
+  color: black;
+  width: 90px;
+  font-size: 13px;
+  height: 30px;
+  font-family: Montserrat;
+}
+
+.button:hover{
+  background: black;
+  color: #F2994A;
+  border: 1px solid #F2994A;
+}
+
+.inm{
+  display: inline-block;
+  width: 260px;
+  font-family: Montserrat;
+}
+
+.lab{
+  color: #F2994A;
+  font-family: Montserrat;
+}
+
+.inv{
+  font-family: Montserrat;
+  margin-top: -2%;
+}

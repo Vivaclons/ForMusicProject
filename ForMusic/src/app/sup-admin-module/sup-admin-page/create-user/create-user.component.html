@@ -1,0 +1,24 @@
+<body><br><br>
+<div class="text">
+  <img src="../../../../assets/logo2.PNG" width="200px" height="180px">
+  <h1>Ready? Let’s play.</h1>
+</div>
+<form [formGroup]="formG" class="login">
+  <h1>Sign up for a free account</h1>
+
+  <label class="lab" for="Name">Name:</label><br>
+  <input class="inm" id="Name" name="Name" formControlName="Name"><br><br>
+  <p class="inv" [style.color]="'red'" *ngIf="!formG?.controls?.Name?.valid">Name is empty!</p>
+  <label class="lab"  for="Surname">Surname:</label><br>
+  <input class="inm" id="Surname" name="Surname" formControlName="Surname"><br><br>
+  <p class="inv" [style.color]="'red'" *ngIf="!formG?.controls?.Surname?.valid">Surname is empty!</p>
+  <label class="lab" for="username">Username:</label><br>
+  <input class="inm" id="username" name="userName" formControlName="userName"><br><br>
+  <p class="inv" [style.color]="'red'" *ngIf="!formG?.controls?.userName?.valid">UserName is empty!</p>
+  <label class="lab" for="password">Password:</label><br>
+  <input  class="inm"id="password" name="password" formControlName="password" type="password"><br><br>
+  <p class="inv" [style.color]="'red'" *ngIf="!formG?.controls?.password?.valid">Password Invalid!</p>
+  <button *ngIf="new" class="button" (click)="create()">Create</button>
+</form>
+<br><br>
+</body>

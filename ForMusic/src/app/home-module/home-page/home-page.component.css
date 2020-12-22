@@ -1,0 +1,227 @@
+@font-face {
+  font-family: Montserrat;
+  src: url("../../../assets/mont.ttf");
+}
+.inf{
+  display: inline-block;
+}
+
+.picture{
+  margin-top: -775px;
+  margin-left: 55%;
+}
+
+.ready h1{
+  font-family: Montserrat;
+}
+
+.picture img{
+  width: 100%;
+  height: 775px;
+}
+
+.LiS{
+  display: inline-block;
+  width: 55%;
+  background: black;
+  height: 775px;
+  margin-top: -1.2%;
+}
+
+.LiS img{
+  position: absolute;
+  margin-top: 2%;
+  margin-left: -13%;
+}
+
+#Li{
+  padding-top: 46%;
+  color: #F2F2F2;
+  font-family: Montserrat;
+  margin-left: 18%;
+  float: left;
+  font-size: 50px;
+}
+
+#eTh{
+  color: #F2F2F2;
+  font-family: Montserrat;
+  margin-right: 18%;
+  float: right;
+  font-size: 50px;
+  margin-top: -3%;
+}
+
+.sign{
+  background: #F2994A;
+  border: 1px solid black;
+  border-radius: 6px;
+  color: black;
+  width: 150px;
+  font-size: 13px;
+  height: 45px;
+  font-family: Montserrat;
+  margin-left: 39%;
+  margin-top: 5%;
+}
+
+.sign:hover{
+  background: black;
+  color: #F2994A;
+  border: 1px solid #F2994A;
+}
+
+.millions p{
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 30px;
+}
+
+.millions{
+  background: #F2F2F2;
+  width: 100%;
+  margin-top: -2.4%;
+}
+
+.millionsima{
+  display: inline-block;
+  position: static;
+  margin-left: 4%;
+}
+
+#img1{
+  margin-left: 17%;
+}
+
+#img2{
+  margin-left: 10%;
+}
+
+#img3{
+  margin-left: 14%;
+}
+
+#img4{
+  margin-left: 18%;
+}
+
+.millionsima h4{
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 15px;
+}
+
+.millionsima p{
+  font-family: Montserrat;
+  text-align: center;
+  font-size: 20px;
+}
+
+.support{
+  width: 100%;
+  background: black;
+  height: 460px;
+  display: inline-block;
+}
+
+.supportimg{
+  /*margin-left: 10px;*/
+}
+
+.aboutUS{
+  margin-top: -28%;
+  margin-left: 34%;
+  margin-right: 4%;
+}
+
+.aboutUS h1{
+  font-size: 25px;
+  font-family: Montserrat;
+  color: #F2F2F2;
+  text-align: center;
+}
+
+.aboutUS p{
+  font-size: 20px;
+  font-family: Montserrat;
+  color: #F2994A;
+}
+
+#translate{
+  background: #F2994A;
+  border: 1px solid black;
+  border-radius: 6px;
+  color: black;
+  width: 90px;
+  font-size: 13px;
+  height: 30px;
+  font-family: Montserrat;
+  float: right;
+}
+
+#translate:hover{
+  background: black;
+  color: #F2994A;
+  border: 1px solid #F2994A;
+}
+
+.table{
+  background: #F2F2F2;
+  margin-top: -1.5%;
+}
+
+.table h1{
+  text-align: center;
+  font-family: Montserrat;
+}
+
+.artists{
+  list-style-type: none;
+  font-family: Montserrat;
+}
+
+table {
+  font-family: Montserrat;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.table p{
+  color: #F2994A;
+  font-family: Montserrat;
+}
+
+.ready{
+  margin-top: -1.5%;
+  text-align: center;
+  background: #F2F2F2;
+  font-family: Montserrat;
+  height: 200px;
+}
+
+.ready button{
+  background: #F2994A;
+  border: 1px solid black;
+  border-radius: 6px;
+  color: black;
+  width: 130px;
+  font-size: 13px;
+  height: 45px;
+  font-family: Montserrat;
+}
+
+.ready button:hover{
+  background: black;
+  color: #F2994A;
+  border: 1px solid #F2994A;
+}
